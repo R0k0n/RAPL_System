@@ -1,0 +1,5 @@
+{% extends 'layout.html' %} {% block content %} {% for post in posts %}
+<h1>{{ post.author }}</h1>
+<p>{{ post.age }}</p>
+<p>{{ post.height }}</p>
+<br><br> {% endfor %} {% endblock content %}
